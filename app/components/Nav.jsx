@@ -15,9 +15,9 @@ var Nav = () => {
           </li>
         </ul>
       </div>
-      <div className='top-bar-right '>
+      <div className='top-bar-right show-for-large-up'>
         <ul className='menu '>
-          <li className="menu-text">
+          <li className="menu-text show-for-medium-up">
             Created by: <a href="https://github.com/alexthedar" target="_blank" id="nav-credit">AlexTheDar</a>
           </li>
         </ul>
