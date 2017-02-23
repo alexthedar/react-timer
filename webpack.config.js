@@ -1,5 +1,5 @@
 var webpack = require('webpack')
-
+var path = require('path')
 
 module.exports={
   entry: [
@@ -44,6 +44,11 @@ module.exports={
         test: /\.jsx?$/,  //regex to say only get files that use jsx at the end and put them through this loader
         exclude: /(node_modules | bower_components)/  //what folders do i not want the babel to go through
       }
+    ]
+  },
+  sassLoader: {
+    includePaths: [
+      path.resolve(__dirname, './node_modules/foundation-sites/scss')
     ]
   },
   devtool: 'eval-source-map'

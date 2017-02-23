@@ -1,5 +1,12 @@
 @import 'base/variables';
 @import 'base/common';
+
+//foundation
+@import 'base/foundation-settings';
+@import 'foundation';
+@include foundation-everything;
+
+//components
 @import 'components/navigation';
 @import 'components/clock';
 @import 'components/countdownForm';

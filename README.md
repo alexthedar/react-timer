@@ -1,10 +1,11 @@
-# React BoilerPlate
+# React Timer
 
 ###### Practice Site by Alexthedar
 
 [Click Here For Live Site](https://morning-beach-30004.herokuapp.com)
 
-> An app built using React, React-router, Webpack, Babel, Foundation, SCSS
+> A timer and countdown app built using React, React-router, Webpack, Babel, Foundation, SCSS
+> Has testing using Karma, mocha and expect
 
 Install and Run:
 
@@ -19,6 +20,9 @@ npm install
 webpack
 
 npm run start
+
+For testing:
+npm run tests
 
 ```
 
