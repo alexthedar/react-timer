@@ -21,3 +21,6 @@ module.exports = function(config) {
     }
   })
 }
+
+
+//single false autoWatch true
