@@ -25,9 +25,22 @@ $clock-bg-color: $dark-purple;
 $clock-border-color: $light-purple;
 
 //countdown form
-$button-bg: $purple;
-$button-text: $blue;
-$button-hover: $light-purple;
-$button-border: $grey;
-$button-hover-text: $dark;
+$start-button-bg: $purple;
+$start-button-text: $blue;
+$start-button-hover: $light-purple;
+$start-button-border: $grey;
+$start-button-hover-text: $dark;
 $input-ph: $light-grey;
+
+//controls form
+$pause-button-bg: $grey;
+$pause-button-text: $pale;
+$pause-button-hover: darken($grey, 10%);
+$pause-button-border: darken($grey, 10%);;
+$pause-button-hover-text: $pale;
+
+$clear-button-bg: $purple;
+$clear-button-text: $blue;
+$clear-button-hover: $light-purple;
+$clear-button-border: $grey;
+$clear-button-hover-text: $dark;

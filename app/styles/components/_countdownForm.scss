@@ -1,10 +1,14 @@
-// .button {
-//   background-color: $button-bg;
-//   color: $button-text;
-//   border: 1px solid $button-border;
-//   &:hover, &:active, &:focus   {
-//     background-color: $button-hover;
-//     color: $button-hover-text;
-//   }
-//
-// }
+.start-button {
+  background-color: $start-button-bg;
+  color: $start-button-text;
+  border: 1px solid $start-button-border;
+  &:hover, &:active, &:focus   {
+    background-color: $start-button-hover;
+    color: $start-button-hover-text;
+  }
+}
+
+input[type="text"], textarea {
+  background-color : $pale;
+  border: 1px solid $start-button-border;
+}

@@ -1,0 +1,29 @@
+.controls {
+  display: flex;
+  justify-content: center;
+  .button {
+    padding: .75rem 3rem;
+  }
+
+  .button:first-child {
+    margin-right: 1.5rem;
+  }
+  #pause-button {
+    background-color: $pause-button-bg;
+    color: $pause-button-text;
+    border: 1px solid $pause-button-border;
+    &:hover, &:active, &:focus   {
+      background-color: $pause-button-hover;
+      color: $pause-button-hover-text;
+    }
+  }
+  #start-button {
+    background-color: $start-button-bg;
+    color: $start-button-text;
+    border: 1px solid $start-button-border;
+    &:hover, &:focus {
+      background-color: $start-button-hover;
+      color: $start-button-hover-text;
+    }
+  }
+}
