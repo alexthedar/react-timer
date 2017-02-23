@@ -15,10 +15,10 @@ var Nav = () => {
           </li>
         </ul>
       </div>
-      <div className='top-bar-right show-for-large-up'>
+      <div className='top-bar-right '>
         <ul className='menu '>
-          <li className="menu-text show-for-medium-up">
-            Created by: <a href="https://github.com/alexthedar" target="_blank" id="nav-credit">AlexTheDar</a>
+          <li className="menu-text show-for-large-up">
+            Created by: <a href="https://github.com/alexthedar" target="_blank" >AlexTheDar</a>
           </li>
         </ul>
       </div>
